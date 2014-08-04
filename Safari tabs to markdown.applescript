@@ -15,7 +15,6 @@ tell application "Safari"
 		set linkList to linkList & "* [" & name of eachTab & "](" & theURL & ")
 "
 	end repeat
-	log linkList
 	set the clipboard to the text of linkList
 end tell
 
