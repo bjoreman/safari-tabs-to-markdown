@@ -12,7 +12,9 @@ tell application "Safari"
 		set theURL to "" & URL of eachTab
 		set theURL to my replace_chars(theURL, "(", "%28")
 		set theURL to my replace_chars(theURL, ")", "%29")
-		set linkList to linkList & "* [" & name of eachTab & "](" & theURL & ")
+		set theName to my replace_chars(name of eachTab, " - Wikipedia, the free encyclopedia", "")
+		set theName to my replace_chars(name of eachTab, " Ð Wikipedia", "")
+		set linkList to linkList & "* [" & theName & "](" & theURL & ")
 "
 	end repeat
 	set the clipboard to the text of linkList
