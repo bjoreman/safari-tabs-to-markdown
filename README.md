@@ -12,3 +12,8 @@ Upon running, the script will ask if you want to "Use link title list?" If you c
 This script builds on [a previous script](https://github.com/martijnengler/tools/blob/master/list-safari-tabs/safari-tabs-to-clipboard.applescript) which was created by [Martijn Engler](http://applecoach.nl).
 
 I built this version to support my workflow for creating shownotes for the podcast [Kodsnack](http://www.kodsnack.se).
+
+Bonus content
+≈≈≈≈≈≈≈≈≈≈≈≈≈
+
+Also included is "Link front Safari tab", a script I end up using even more often nowadays. Saved as a service and assigned a keyboard shortcut, i use it to make a Markdown link surrounding the selected text. The URL is the one in the frontmost tab in Safari.
